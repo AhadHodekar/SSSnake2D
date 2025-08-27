@@ -4,8 +4,8 @@ local Blob = require("blob")
 -- @constants
 SCORE = 0
 GRID_SIZE = 20
-GRID_WIDTH = 30
-GRID_HEIGHT = 20
+GRID_WIDTH = 50
+GRID_HEIGHT = 40
 
 local function exit_game()
 	if love.keyboard.isDown("q") then
